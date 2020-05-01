@@ -3,7 +3,7 @@ import Task from "./listtask";
 
 function Form() {
   const [task, settask] = useState("");
-  const [items, setitems] = useState([]);
+  const [items, setitems] = useState(['Test','Debug']);
 
   function handleChange(e) {
     const newVal = e.target.value;
@@ -11,7 +11,7 @@ function Form() {
   }
   function addTask() {
     setitems((prevItems) => [...prevItems, task]);
-    settask('');
+    settask("");
   }
   return (
     <div>
