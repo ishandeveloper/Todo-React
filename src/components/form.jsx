@@ -24,7 +24,7 @@ function Form() {
           spellCheck="false"
           required
         />
-        <button onClick={addTask}>Add Task</button>
+        <button onClick={addTask}>+</button>
       </div>
       <ul>
         {items.map((item) => (
