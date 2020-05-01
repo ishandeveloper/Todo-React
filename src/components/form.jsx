@@ -3,7 +3,7 @@ import Task from "./listtask";
 
 function Form() {
   const [task, settask] = useState("");
-  const [items, setitems] = useState(['Test','Debug']);
+  const [items, setitems] = useState([]);
 
   function handleChange(e) {
     const newVal = e.target.value;
@@ -12,6 +12,9 @@ function Form() {
   function addTask() {
     setitems((prevItems) => [...prevItems, task]);
     settask("");
+  }
+  function deleteTask(id) {
+    setitems((prevItems) => prevItems.filter((item, index) => index !== id));
   }
   return (
     <div>
@@ -29,7 +32,12 @@ function Form() {
       </div>
       <ul>
         {items.map((item) => (
-          <Task value={item} />
+          <Task
+            key={items.indexOf(item)}
+            id={items.indexOf(item)}
+            value={item}
+            onDelete={deleteTask}
+          />
         ))}
       </ul>
     </div>

@@ -78,8 +78,8 @@ li {
 }
 
 li:hover {
-    /* text-decoration: line-through; */
-    background: #cacaca;
+    text-decoration: line-through;
+    background: #eeeeee;
 }
 
 .info {
