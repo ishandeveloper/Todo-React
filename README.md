@@ -1,4 +1,4 @@
-<img src="https://github.com/ishandeveloper/Emoji-Dictionary/blob/master/Screenshots/1.PNG?raw=false" width="100%">
+<img src="https://github.com/ishandeveloper/Todo-React/blob/master/screenshots/1.PNG?raw=false" width="100%">
 
 # TODO REACT
 
@@ -12,11 +12,11 @@ This is a simple, yet aesthetically pleasing Todo app created in react, designed
 
   ##### Clone the repository
 ```bash
-git clone https://github.com/ishandeveloper/Emoji-Dictionary.git
+git clone https://github.com/ishandeveloper/Todo-React.git
 ```
   ##### Move to the desired folder
 ```bash
-cd \Emoji-Dictionary
+cd \Todo-React
 ```
   ##### To install the dependencies, simply write
 ```bash
