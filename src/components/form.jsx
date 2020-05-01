@@ -11,6 +11,7 @@ function Form() {
   }
   function addTask() {
     setitems((prevItems) => [...prevItems, task]);
+    settask('');
   }
   return (
     <div>

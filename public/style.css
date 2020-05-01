@@ -78,7 +78,7 @@ li {
 }
 
 li:hover {
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     background: #cacaca;
 }
 
@@ -123,21 +123,25 @@ a:hover {
     color: red;
     font-size: 1.5em;
 }
-.form{
+
+.form {
     display: flex;
 }
+
 @media only screen and (max-width: 768px) {
 
-.form{
-    display: inline-grid;
-}
-input[type="text"] {
-    width: 85%;
-    text-align: center;
-}
-button{
-    width: 100%;
-    text-align: center;
-    padding:12px 0px;
-}
+    .form {
+        display: inline-grid;
+    }
+
+    input[type="text"] {
+        width: 85%;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0px;
+    }
 }
