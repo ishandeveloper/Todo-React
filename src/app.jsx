@@ -1,11 +1,14 @@
 import React from "react";
 import Form from "./components/form";
-// import List from './components/list';
+import Footer from './components/footer';
+
 function App() {
   return (
-    <div className="todo-table">
+    <div>
+        <div className="todo-table">
       <Form />
-      {/* <List/> */}
+    </div>
+    <Footer/>
     </div>
   );
 }
